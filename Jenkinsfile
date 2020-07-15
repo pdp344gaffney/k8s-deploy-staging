@@ -47,7 +47,7 @@ pipeline {
       }
     }
     // DO NOT uncomment until 06_04 Lab
-    /*
+    //Uncommented because doing lab 06 04
     stage('DT Deploy Event') {
       steps {
         container("curl") {
@@ -64,7 +64,7 @@ pipeline {
         }
       }
     }
-    */
+    
     
     // DO NOT uncomment until 10_01 Lab
     /*
